@@ -1,8 +1,3 @@
-/* Example of a media query for screens wider than 768 pixels */
-@media only screen and (min-width: 768px) {
-  /* Your styles for larger screens go here */
-}
-
 body {
   font-family: Arial, sans-serif;
   background-image: url("abc.jpg");
@@ -55,8 +50,4 @@ p {
 
 button:hover {
   color: orange;
-}
-img {
-  max-width: 100%;
-  height: auto;
 }
