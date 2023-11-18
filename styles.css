@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("abc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  margin: auto;
+  display: block;
+  position: relative;
+  top: 225px;
+}
+.container {
+  padding: 15px 25px;
+  font-size: 12px;
+  margin: auto;
+  display: block;
+  position: relative;
+  top: 227px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: aliceblue;
+  text-align: center;
+  position: relative;
+  top: 233px;
+}
+h1 {
+  color: aliceblue;
+  text-align: center;
+  position: relative;
+  top: 205px;
+}
+p {
+  color: aliceblue;
+  position: relative;
+  top: 215px;
+  text-align: center;
+  font-size: 12px;
+}
+
+button:hover {
+  color: orange;
+}
