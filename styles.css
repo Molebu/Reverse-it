@@ -5,22 +5,24 @@ body {
   background-repeat: no-repeat;
   cursor: pointer;
 }
+
 input[type="text"] {
-  width: 50%;
+  width: 100%; /* Adjusted for responsiveness */
   padding: 10px;
   font-size: 16px;
   margin: auto;
   display: block;
   position: relative;
-  top: 225px;
+  top: 20px; /* Adjusted for responsiveness */
 }
+
 .container {
   padding: 15px 25px;
   font-size: 12px;
   margin: auto;
   display: block;
   position: relative;
-  top: 227px;
+  top: 20px; /* Adjusted for responsiveness */
   text-align: center;
   cursor: pointer;
 }
@@ -32,22 +34,35 @@ input[type="text"] {
   color: aliceblue;
   text-align: center;
   position: relative;
-  top: 233px;
+  top: 20px; /* Adjusted for responsiveness */
 }
+
 h1 {
   color: aliceblue;
   text-align: center;
   position: relative;
-  top: 205px;
+  top: 20px; /* Adjusted for responsiveness */
 }
+
 p {
   color: aliceblue;
   position: relative;
-  top: 215px;
+  top: 20px; /* Adjusted for responsiveness */
   text-align: center;
   font-size: 12px;
 }
 
 button:hover {
   color: orange;
+}
+
+/* Media Query for Tablets and Smaller Screens */
+@media only screen and (max-width: 768px) {
+  input[type="text"],
+  .container,
+  #result,
+  h1,
+  p {
+    width: 80%; /* Adjusted width for smaller screens */
+  }
 }
